@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(to bottom right,#5bfd40, black, #5bfd40) fixed;
+}
+hr {
+    background-color: black;
+    height: 2px;
+}
+#mainHeader {
+    text-align: center;
+    color: #5bfd40;
+    border-style: solid;
+    border-color: #5bfd40;
+    font-family: 'Audiowide', cursive;
+}
+#mainHeader:first-child p {
+    font-size: 5vw;
+}
+#mainMenuBar {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #5bfd40;
+    top: 0;
+    border-radius: 10px;
+}
+#text {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.menuButton {
+    display: inline-block;
+    background-color: #5bfd40;
+    color: black;
+    text-align: center;
+    padding: 11px 11px;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 10px;
+}
+.menuButton:hover {
+    background-color: black;
+    color: white;
+}
+.blogButton {
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-block;
+    background-color: #5bfd40;
+    text-decoration: none;
+    padding: 8px 8px;
+    cursor: pointer;
+    border-radius: 10px;
+}
