@@ -22,7 +22,7 @@ hr {
     top: 0;
     border-radius: 10px;
 }
-#text {
+.text {
     color: white;
     font-family: 'Ubuntu', sans-serif;
 }
