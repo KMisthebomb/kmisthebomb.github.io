@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(to bottom right,#5bfd40, black, #5bfd40) fixed;
+    margin: 2vw;
 }
 hr {
     background-color: black;
@@ -14,6 +15,10 @@ hr {
 }
 #mainHeader:first-child p {
     font-size: 5vw;
+}
+.link {
+    color: rgb(117, 115, 255);
+    font-family: 'Ubuntu', sans-serif;
 }
 #mainMenuBar {
     position: -webkit-sticky;
