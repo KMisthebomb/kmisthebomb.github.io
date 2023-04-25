@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom right,#5bfd40, black, #5bfd40) fixed;
+    background: #1a3c35;
     margin: 2vw;
 }
 hr {
@@ -8,11 +8,12 @@ hr {
 }
 #mainHeader {
     text-align: center;
-    color: #5bfd40;
+    color: #d2a748;
     border-style: solid;
-    border-color: #5bfd40;
+    border-color: #d2a748;
     font-family: 'Audiowide', cursive;
 }
+
 #mainHeader:first-child p {
     font-size: 5vw;
 }
@@ -23,23 +24,21 @@ hr {
 #mainMenuBar {
     position: -webkit-sticky;
     position: sticky;
-    background-color: #5bfd40;
+    background-color: #224e44;
     top: 0;
-    border-radius: 10px;
 }
 .text {
-    color: white;
+    color: #d2a748;
     font-family: 'Ubuntu', sans-serif;
 }
 .menuButton {
     display: inline-block;
-    background-color: #5bfd40;
-    color: black;
+    background-color: #224e44;
+    color: #d2a748;
     text-align: center;
     padding: 11px 11px;
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
-    border-radius: 10px;
 }
 .menuButton:hover {
     background-color: black;
